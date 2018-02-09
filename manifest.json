@@ -3,7 +3,7 @@
 "name": "Hey Beter",
 "short_name": "Beter",
 "description": "Changes the letter 'B' to the B emoji.",
-"version": "1.2.1",
+"version": "1.2.2",
 
 "background" : {
 "scripts" : ["background.js"] },

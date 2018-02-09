@@ -1,5 +1,5 @@
 ![alt text](https://github.com/biggomega/hey-beter/raw/master/image/tiles/marquee.png "Hey Beter")
-# AssignMe
+# Hey Beter
 [![Chrome Web Store](https://img.shields.io/chrome-web-store/users/ejpilpdcahcfkhanpikmgadenjhpchem.svg)](https://chrome.google.com/webstore/detail/hey-beter/ejpilpdcahcfkhanpikmgadenjhpchem)
 [![Chrome Web Store](https://img.shields.io/chrome-web-store/rating/ejpilpdcahcfkhanpikmgadenjhpchem.svg)](https://chrome.google.com/webstore/detail/hey-beter/ejpilpdcahcfkhanpikmgadenjhpchem)
 [![Chrome Web Store](https://img.shields.io/chrome-web-store/rating-count/ejpilpdcahcfkhanpikmgadenjhpchem.svg)](https://chrome.google.com/webstore/detail/hey-beter/ejpilpdcahcfkhanpikmgadenjhpchem)

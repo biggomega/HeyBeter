@@ -71,9 +71,3 @@ chrome.storage.local.get("HeyBeter", function(items) {
     }
   }
 });
-
-document.getElementById("mydivtoclicky").onclick = function() {
-    chrome.tabs.query({active: true, currentWindow: true}, function(tabs) {
-        chrome.tabs.update(tabs[0].id, {url: tabs[0].url});
-    });
-};

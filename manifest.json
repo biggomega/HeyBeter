@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "Hey Beter",
   "short_name": "Beter",
-  "version": "2.0.1",
+  "version": "2.1.0",
   "description": "Replaces half of those regular old Bs with the B emoji.",
 
   "icons": {

@@ -18,13 +18,19 @@ function text_replace(elements, to_replace, replaced_text) {
   }
 }
 
-chrome.storage.local.get("HeyBeter", function(items) {
+chrome.storage.local.get("hey-beter", function(items) {
   var elements = document.getElementsByTagName('*');
-  if (items["HeyBeter"]) {
-    text_replace(elements, " B", " 🅱");
-    text_replace(elements, "\"B", "\"🅱");
-    text_replace(elements, "'B", "'🅱");
-    text_replace(elements, "Peter ", "🅱eter ");
+  let beter = items["hey-beter"]
+  if (beter == 1) {
+    text_replace(elements, " B", " 🅱️");
+    text_replace(elements, "\"B", "\"🅱️");
+    text_replace(elements, "'B", "'🅱️");
+    text_replace(elements, "Peter ", "🅱️eter ");
+  } else if (beter == 2) {
+    text_replace(elements, " 🅱️", " 🅱");
+    text_replace(elements, "\"🅱️", "\"🅱");
+    text_replace(elements, "'🅱️", "'🅱");
+    text_replace(elements, "🅱️eter ", "🅱eter ");
   } else {
     text_replace(elements, " 🅱", " B");
     text_replace(elements, "\"🅱", "\"B");

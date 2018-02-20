@@ -20,7 +20,7 @@ function text_replace(elements, to_replace, replaced_text) {
 
 chrome.storage.local.get("hey-beter", function(items) {
   var elements = document.getElementsByTagName('*');
-  let beter = items["hey-beter"]
+  var beter = items["hey-beter"]
   if (beter == 1) {
     text_replace(elements, " B", " 🅱️");
     text_replace(elements, "\"B", "\"🅱️");
@@ -31,6 +31,10 @@ chrome.storage.local.get("hey-beter", function(items) {
     text_replace(elements, "\"🅱️", "\"🅱");
     text_replace(elements, "'🅱️", "'🅱");
     text_replace(elements, "🅱️eter ", "🅱eter ");
+      text_replace(elements, " B", " 🅱");
+      text_replace(elements, "\"B", "\"🅱");
+      text_replace(elements, "'B", "'🅱");
+      text_replace(elements, "Peter ", "🅱eter ");
   } else {
     text_replace(elements, " 🅱", " B");
     text_replace(elements, "\"🅱", "\"B");

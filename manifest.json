@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "Hey Beter",
   "short_name": "Beter",
-  "version": "1.4.0",
+  "version": "2.0.0",
   "description": "Fixes webpages by replacing the letter 'B' to the B emoji 50% of the time.",
 
   "icons": {

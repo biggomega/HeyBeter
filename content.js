@@ -19,11 +19,17 @@ function text_replace(elements, to_replace, replaced_text) {
 }
 
 chrome.storage.local.get("HeyBeter", function(items) {
+  var elements = document.getElementsByTagName('*');
   if (items["HeyBeter"]) {
-    var elements = document.getElementsByTagName('*');
     text_replace(elements, " B", " 🅱️");
     text_replace(elements, "\"B", "\"🅱️");
     text_replace(elements, "'B", "'🅱️");
     text_replace(elements, "Peter ", "🅱️eter ");
+  } else {
+    var elements = document.getElementsByTagName('*');
+    text_replace(elements, " 🅱️", " B");
+    text_replace(elements, "\"🅱️", "\"B");
+    text_replace(elements, "'🅱️", "'B");
+    text_replace(elements, "🅱️eter ", "Peter ");
   }
 });

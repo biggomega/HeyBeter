@@ -2,6 +2,8 @@ chrome.runtime.onInstalled.addListener(function() {
   chrome.storage.local.set({'hey-beter': 1});
 });
 
+chrome.runtime.setUninstallURLchrome.runtime.setUninstallURL("http://apps.benbotvinick.com/hey-beter/uninstall");
+
 chrome.browserAction.onClicked.addListener(function() {
   chrome.storage.local.get("hey-beter", function(items) {
     let beter = items["hey-beter"];
